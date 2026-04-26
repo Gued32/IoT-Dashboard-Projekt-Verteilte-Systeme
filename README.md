@@ -71,17 +71,6 @@ Dieses Projekt wird im Rahmen einer Teamarbeit mit 1 Studierenden umgesetzt.
 
 ---
 
-## 📊 Bezug zu Verteilten Systemen
-
-Das System adressiert zentrale Aspekte verteilter Systeme:
-
-* Nachrichtenbasierte Kommunikation (MQTT)
-* Verteilte und lose gekoppelte Komponenten
-* Asynchrone Datenverarbeitung
-* Netzwerkbasierte Interaktion
-
----
-
 ## ▶️ Ausführung
 
 1. Starten des MQTT-Brokers (z. B. Mosquitto)
