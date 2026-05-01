@@ -67,7 +67,7 @@ Die Anwendung besteht aus mehreren logisch getrennten Komponenten:
 
 ## 👥 Team
 
-Dieses Projekt wird im Rahmen einer Teamarbeit mit 1 Studierenden umgesetzt.
+Dieses Projekt wird mit 1 Studierenden umgesetzt.
 
 ---
 
