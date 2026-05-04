@@ -55,7 +55,7 @@ Die Anwendung besteht aus mehreren logisch getrennten Komponenten:
 
 * Echtzeit-Erfassung und Anzeige von Sensordaten
 * Unterstützung mehrerer Sensoren
-* Einfache Web-Oberfläche zur Visualisierung
+* Web-Oberfläche zur Visualisierung
 
 ### Erweiterungen (optional)
 
