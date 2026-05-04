@@ -57,7 +57,7 @@ Die Anwendung besteht aus mehreren logisch getrennten Komponenten:
 * Unterstützung mehrerer Sensoren
 * Web-Oberfläche zur Visualisierung
 
-### Erweiterungen (optional)
+### Erweiterungen (Optional)
 
 * Grafische Darstellung (Diagramme)
 * Grenzwertbasierte Warnungen
