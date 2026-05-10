@@ -7,6 +7,8 @@ from datetime import datetime, timezone
 
 import paho.mqtt.client as mqtt
 
+RECONNECT_DELAY_SECONDS = 0.2
+
 
 def generate_payload(sensor_id: str) -> dict:
     return {
@@ -47,7 +49,7 @@ def main() -> None:
                 print("MQTT client disconnected, attempting reconnect...")
                 try:
                     client.reconnect()
-                    time.sleep(0.2)
+                    time.sleep(RECONNECT_DELAY_SECONDS)
                 except OSError as error:
                     print(f"Reconnect failed: {error}")
                     time.sleep(args.interval)
