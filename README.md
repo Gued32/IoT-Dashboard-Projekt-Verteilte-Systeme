@@ -74,9 +74,16 @@ Dieses Projekt wird mit 1 Studierenden umgesetzt.
 ## ▶️ Ausführung
 
 1. Starten des MQTT-Brokers (z. B. Mosquitto)
-2. Ausführen der Sensor-Simulatoren
-3. Starten des Backend-Servers
-4. Öffnen des Dashboards im Webbrowser
+2. Installation der Python-Abhängigkeiten:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Ausführen der Sensor-Simulatoren:
+   ```bash
+   python sensors/mqtt_sensor_simulator.py
+   ```
+4. Starten des Backend-Servers
+5. Öffnen des Dashboards im Webbrowser
 
 ---
 
@@ -90,4 +97,3 @@ Dieses Projekt wird mit 1 Studierenden umgesetzt.
 ```
 
 ---
-
